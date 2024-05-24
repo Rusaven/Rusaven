@@ -1,0 +1,75 @@
+/* Default */
+* 
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.highlight
+{
+    color: blueviolet;
+}
+
+body
+{
+    background-color: black;
+    height: auto;
+}
+/* Default end */
+
+/* Body */
+.corner-title {
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.main-title {
+    font-size: clamp(1.5rem, 4vw, 6rem);
+    font-weight: 700;
+    color: white;
+} 
+
+.topic {
+    font-size: clamp(1.5rem, 4vw, 6rem);
+    font-weight: 700;
+    color: white;
+}
+
+.title {
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.sub {
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 500;
+    color: white;
+}
+
+.text {
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+}
+
+/* Body end */
+
+@media (min-width: 320px) {
+    .corner-title {
+        margin-top: 50px;
+    }
+
+    .main-title {
+        margin-top: 25px;
+    }
+
+    .topic {
+        margin-top: 100px;
+    }
+}
